@@ -1,0 +1,152 @@
+# Logfile created on 2021-12-01 15:57:08 +0300 by logger.rb/66358
+I, [2021-12-02T11:40:54.964122 #1816]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-02T11:40:54.964763 #1816]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-02T11:40:54.964831 #1816] DEBUG -- : body :
+I, [2021-12-02T11:40:54.977584 #1816]  INFO -- : Received response with status: 502, headers: {"Date"=>"Thu, 02 Dec 2021 08:40:54 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-02T11:40:54.977648 #1816] DEBUG -- : body: 
+W, [2021-12-02T11:40:54.981210 #1816]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-02T11:42:21.065888 #1861]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-02T11:42:21.066017 #1861]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-02T11:42:21.066053 #1861] DEBUG -- : body :
+I, [2021-12-02T11:42:21.076084 #1861]  INFO -- : Received response with status: 502, headers: {"Date"=>"Thu, 02 Dec 2021 08:42:21 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-02T11:42:21.076156 #1861] DEBUG -- : body: 
+W, [2021-12-02T11:42:21.078659 #1861]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-02T11:42:39.885225 #1930]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-02T11:42:39.885349 #1930]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-02T11:42:39.885387 #1930] DEBUG -- : body :
+I, [2021-12-02T11:42:39.895100 #1930]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"16", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Thu, 02 Dec 2021 08:42:39 GMT"}, see debug logs for body
+D, [2021-12-02T11:42:39.895155 #1930] DEBUG -- : body: { "counter": 0 }
+I, [2021-12-02T11:47:21.592334 #2039]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-02T11:47:21.592472 #2039]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-02T11:47:21.592508 #2039] DEBUG -- : body :
+I, [2021-12-02T11:47:21.602696 #2039]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"18", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Thu, 02 Dec 2021 08:47:20 GMT"}, see debug logs for body
+D, [2021-12-02T11:47:21.602762 #2039] DEBUG -- : body: [{ "counter": 0 }]
+I, [2021-12-02T13:22:51.832143 #2471]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-02T13:22:51.832621 #2471]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-02T13:22:51.832666 #2471] DEBUG -- : body :
+I, [2021-12-02T13:22:51.845093 #2471]  INFO -- : Received response with status: 502, headers: {"Date"=>"Thu, 02 Dec 2021 10:22:51 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-02T13:22:51.845163 #2471] DEBUG -- : body: 
+W, [2021-12-02T13:22:51.848002 #2471]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-02T14:34:41.989798 #2956]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-02T14:34:41.989932 #2956]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-02T14:34:41.989968 #2956] DEBUG -- : body :
+I, [2021-12-02T14:34:41.999793 #2956]  INFO -- : Received response with status: 502, headers: {"Date"=>"Thu, 02 Dec 2021 11:34:41 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-02T14:34:41.999856 #2956] DEBUG -- : body: 
+W, [2021-12-02T14:34:42.002130 #2956]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-02T19:11:40.384078 #4169]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-02T19:11:40.384185 #4169]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-02T19:11:40.384230 #4169] DEBUG -- : body :
+I, [2021-12-02T19:11:40.392710 #4169]  INFO -- : Received response with status: 502, headers: {"Date"=>"Thu, 02 Dec 2021 16:11:40 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-02T19:11:40.392767 #4169] DEBUG -- : body: 
+W, [2021-12-02T19:11:40.394542 #4169]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-06T11:40:45.688891 #2985]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T11:40:45.689413 #2985]  INFO -- : Sending GET request to path: "/display" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T11:40:45.689459 #2985] DEBUG -- : body :
+I, [2021-12-06T11:40:45.701470 #2985]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 06 Dec 2021 08:40:45 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-06T11:40:45.701542 #2985] DEBUG -- : body: 
+W, [2021-12-06T11:40:45.704359 #2985]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-06T11:41:46.389181 #3047]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T11:41:46.389329 #3047]  INFO -- : Sending GET request to path: "/display" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T11:41:46.389414 #3047] DEBUG -- : body :
+I, [2021-12-06T11:41:46.398968 #3047]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 06 Dec 2021 08:41:46 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-06T11:41:46.399036 #3047] DEBUG -- : body: 
+I, [2021-12-06T11:41:46.402168 #3047]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is increased counter a request for increase counter with GET /increase returns a response which has status code 200'
+I, [2021-12-06T11:41:46.402281 #3047]  INFO -- : Sending GET request to path: "/increase" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is increased counter"}]}, see debug logs for body
+D, [2021-12-06T11:41:46.402314 #3047] DEBUG -- : body :
+I, [2021-12-06T11:41:46.404543 #3047]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 06 Dec 2021 08:41:46 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-06T11:41:46.404612 #3047] DEBUG -- : body: 
+I, [2021-12-06T11:41:46.406253 #3047]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is decreased counter a request for decrease counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-06T11:41:46.406399 #3047]  INFO -- : Sending GET request to path: "/decrease" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is decreased counter"}]}, see debug logs for body
+D, [2021-12-06T11:41:46.406430 #3047] DEBUG -- : body :
+I, [2021-12-06T11:41:46.408560 #3047]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 06 Dec 2021 08:41:46 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-06T11:41:46.408611 #3047] DEBUG -- : body: 
+I, [2021-12-06T11:45:39.643934 #3126]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T11:45:39.644083 #3126]  INFO -- : Sending GET request to path: "/display" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T11:45:39.644118 #3126] DEBUG -- : body :
+I, [2021-12-06T11:45:39.654455 #3126]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"18", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 06 Dec 2021 08:45:39 GMT"}, see debug logs for body
+D, [2021-12-06T11:45:39.654525 #3126] DEBUG -- : body: [{ "counter": 0 }]
+I, [2021-12-06T11:45:39.657576 #3126]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is increased counter a request for increase counter with GET /increase returns a response which has status code 200'
+I, [2021-12-06T11:45:39.657682 #3126]  INFO -- : Sending GET request to path: "/increase" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is increased counter"}]}, see debug logs for body
+D, [2021-12-06T11:45:39.657712 #3126] DEBUG -- : body :
+I, [2021-12-06T11:45:39.660035 #3126]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"18", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 06 Dec 2021 08:45:39 GMT"}, see debug logs for body
+D, [2021-12-06T11:45:39.660098 #3126] DEBUG -- : body: [{ "counter": 1 }]
+I, [2021-12-06T11:45:39.661224 #3126]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is decreased counter a request for decrease counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-06T11:45:39.661331 #3126]  INFO -- : Sending GET request to path: "/decrease" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is decreased counter"}]}, see debug logs for body
+D, [2021-12-06T11:45:39.661364 #3126] DEBUG -- : body :
+I, [2021-12-06T11:45:39.663589 #3126]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"18", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 06 Dec 2021 08:45:39 GMT"}, see debug logs for body
+D, [2021-12-06T11:45:39.663636 #3126] DEBUG -- : body: [{ "counter": 0 }]
+I, [2021-12-06T11:49:19.001351 #3208]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T11:49:19.001510 #3208]  INFO -- : Sending GET request to path: "/display" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T11:49:19.001546 #3208] DEBUG -- : body :
+I, [2021-12-06T11:49:19.011866 #3208]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"18", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 06 Dec 2021 08:49:19 GMT"}, see debug logs for body
+D, [2021-12-06T11:49:19.011949 #3208] DEBUG -- : body: [{ "counter": 0 }]
+I, [2021-12-06T11:49:19.015042 #3208]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is increased counter a request for increase counter with GET /increase returns a response which has status code 200'
+I, [2021-12-06T11:49:19.015146 #3208]  INFO -- : Sending GET request to path: "/increase" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is increased counter"}]}, see debug logs for body
+D, [2021-12-06T11:49:19.015173 #3208] DEBUG -- : body :
+I, [2021-12-06T11:49:19.017149 #3208]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"18", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 06 Dec 2021 08:49:19 GMT"}, see debug logs for body
+D, [2021-12-06T11:49:19.017191 #3208] DEBUG -- : body: [{ "counter": 1 }]
+I, [2021-12-06T11:49:19.018216 #3208]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is decreased counter a request for decrease counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-06T11:49:19.018312 #3208]  INFO -- : Sending GET request to path: "/decrease" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is decreased counter"}]}, see debug logs for body
+D, [2021-12-06T11:49:19.018341 #3208] DEBUG -- : body :
+I, [2021-12-06T11:49:19.020294 #3208]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"18", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 06 Dec 2021 08:49:19 GMT"}, see debug logs for body
+D, [2021-12-06T11:49:19.020336 #3208] DEBUG -- : body: [{ "counter": 0 }]
+I, [2021-12-06T15:31:02.187689 #5486]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T15:31:02.188098 #5486]  INFO -- : Sending GET request to path: "/display" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T15:31:02.188144 #5486] DEBUG -- : body :
+I, [2021-12-06T15:31:02.200455 #5486]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:31:01 GMT"}, see debug logs for body
+D, [2021-12-06T15:31:02.200523 #5486] DEBUG -- : body: {"counter":1}
+I, [2021-12-06T15:31:02.204202 #5486]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is increased counter a request for increase counter with GET /increase returns a response which has status code 200'
+I, [2021-12-06T15:31:02.204319 #5486]  INFO -- : Sending GET request to path: "/increase" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is increased counter"}]}, see debug logs for body
+D, [2021-12-06T15:31:02.204352 #5486] DEBUG -- : body :
+I, [2021-12-06T15:31:02.206541 #5486]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:31:01 GMT"}, see debug logs for body
+D, [2021-12-06T15:31:02.206592 #5486] DEBUG -- : body: {"counter":2}
+I, [2021-12-06T15:31:02.207686 #5486]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is decreased counter a request for decrease counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-06T15:31:02.207797 #5486]  INFO -- : Sending GET request to path: "/decrease" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is decreased counter"}]}, see debug logs for body
+D, [2021-12-06T15:31:02.207849 #5486] DEBUG -- : body :
+I, [2021-12-06T15:31:02.210124 #5486]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:31:01 GMT"}, see debug logs for body
+D, [2021-12-06T15:31:02.210170 #5486] DEBUG -- : body: {"counter":1}
+I, [2021-12-06T15:36:10.873485 #5962]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T15:36:10.873627 #5962]  INFO -- : Sending GET request to path: "/display" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T15:36:10.873663 #5962] DEBUG -- : body :
+I, [2021-12-06T15:36:10.886552 #5962]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:36:10 GMT"}, see debug logs for body
+D, [2021-12-06T15:36:10.886615 #5962] DEBUG -- : body: {"counter":0}
+I, [2021-12-06T15:36:10.890064 #5962]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is increased counter a request for increase counter with GET /increase returns a response which has status code 200'
+I, [2021-12-06T15:36:10.890168 #5962]  INFO -- : Sending GET request to path: "/increase" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is increased counter"}]}, see debug logs for body
+D, [2021-12-06T15:36:10.890200 #5962] DEBUG -- : body :
+I, [2021-12-06T15:36:10.892342 #5962]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:36:10 GMT"}, see debug logs for body
+D, [2021-12-06T15:36:10.892387 #5962] DEBUG -- : body: {"counter":1}
+I, [2021-12-06T15:36:10.893090 #5962]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is decreased counter a request for decrease counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-06T15:36:10.893181 #5962]  INFO -- : Sending GET request to path: "/decrease" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is decreased counter"}]}, see debug logs for body
+D, [2021-12-06T15:36:10.893211 #5962] DEBUG -- : body :
+I, [2021-12-06T15:36:10.895460 #5962]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:36:10 GMT"}, see debug logs for body
+D, [2021-12-06T15:36:10.895531 #5962] DEBUG -- : body: {"counter":0}
+I, [2021-12-06T15:50:31.287696 #6724]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T15:50:31.288331 #6724]  INFO -- : Sending GET request to path: "/display" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T15:50:31.288398 #6724] DEBUG -- : body :
+I, [2021-12-06T15:50:31.304839 #6724]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:50:31 GMT"}, see debug logs for body
+D, [2021-12-06T15:50:31.304914 #6724] DEBUG -- : body: [{"counter":0}]
+I, [2021-12-06T15:50:31.309106 #6724]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is increased counter a request for increase counter with GET /increase returns a response which has status code 200'
+I, [2021-12-06T15:50:31.309240 #6724]  INFO -- : Sending GET request to path: "/increase" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is increased counter"}]}, see debug logs for body
+D, [2021-12-06T15:50:31.309270 #6724] DEBUG -- : body :
+I, [2021-12-06T15:50:31.311617 #6724]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:50:31 GMT"}, see debug logs for body
+D, [2021-12-06T15:50:31.311661 #6724] DEBUG -- : body: [{"counter":1}]
+I, [2021-12-06T15:50:31.312658 #6724]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is decreased counter a request for decrease counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-06T15:50:31.312751 #6724]  INFO -- : Sending GET request to path: "/decrease" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is decreased counter"}]}, see debug logs for body
+D, [2021-12-06T15:50:31.312779 #6724] DEBUG -- : body :
+I, [2021-12-06T15:50:31.314843 #6724]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:50:31 GMT"}, see debug logs for body
+D, [2021-12-06T15:50:31.314882 #6724] DEBUG -- : body: [{"counter":0}]
+I, [2021-12-06T15:51:15.637815 #6791]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is counter a request for display counter with GET /display returns a response which has status code 200'
+I, [2021-12-06T15:51:15.637959 #6791]  INFO -- : Sending GET request to path: "/display" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is counter"}]}, see debug logs for body
+D, [2021-12-06T15:51:15.637995 #6791] DEBUG -- : body :
+I, [2021-12-06T15:51:15.649288 #6791]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:51:15 GMT"}, see debug logs for body
+D, [2021-12-06T15:51:15.649339 #6791] DEBUG -- : body: {"counter":0}
+I, [2021-12-06T15:51:15.650720 #6791]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is increased counter a request for increase counter with GET /increase returns a response which has status code 200'
+I, [2021-12-06T15:51:15.650830 #6791]  INFO -- : Sending GET request to path: "/increase" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is increased counter"}]}, see debug logs for body
+D, [2021-12-06T15:51:15.650863 #6791] DEBUG -- : body :
+I, [2021-12-06T15:51:15.653008 #6791]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:51:15 GMT"}, see debug logs for body
+D, [2021-12-06T15:51:15.653051 #6791] DEBUG -- : body: {"counter":1}
+I, [2021-12-06T15:51:15.653771 #6791]  INFO -- : Running example 'Verifying a pact between consumer-test and provider-test Given this is decreased counter a request for decrease counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-06T15:51:15.653865 #6791]  INFO -- : Sending GET request to path: "/decrease" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"this is decreased counter"}]}, see debug logs for body
+D, [2021-12-06T15:51:15.653896 #6791] DEBUG -- : body :
+I, [2021-12-06T15:51:15.655799 #6791]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"13", "Content-Type"=>"application/json", "Date"=>"Mon, 06 Dec 2021 12:51:15 GMT"}, see debug logs for body
+D, [2021-12-06T15:51:15.655855 #6791] DEBUG -- : body: {"counter":0}
